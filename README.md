@@ -27,6 +27,15 @@ Streams come in the same order that they were created, i.e. if you are using a s
 
 You can adjust the order of them using the sorted method.
 
+Reducers are a type of operation which reduce a stream of objects to a single object, and they include: 
+count(), anyMatch(predicate), allMatch(predicate), noneMatch(predicate), findFirst(), findAny(), max(comparator), min(comparator).All of thsee are terminal operations and
+produce a result.
+
+It is better to use IntStream, LongStream, and DoubleStream to work with primitive type streams.
+
+
+
+
 
 
 
